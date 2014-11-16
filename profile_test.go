@@ -31,7 +31,7 @@ func main() {
 `,
 	checks: []checkFn{
 		NoStdout,
-		Stderr("profile: cpu profiling enabled"),
+		Stderr("profiling enabled, cpu.pprof"),
 		NoErr,
 	},
 }, {
